@@ -188,16 +188,28 @@ const ContactSection = () => {
                   Мы в социальных сетях
                 </h3>
 
-                <div className="flex space-x-4">
-                  <Button variant="outline" size="sm" className="flex-1">
+                <div className="flex flex-col space-y-3 md:flex-row md:space-y-0 md:space-x-4">
+                  <Button
+                    variant="outline"
+                    size="sm"
+                    className="flex-1 justify-center"
+                  >
                     <Icon name="Instagram" className="mr-2" />
                     Instagram
                   </Button>
-                  <Button variant="outline" size="sm" className="flex-1">
+                  <Button
+                    variant="outline"
+                    size="sm"
+                    className="flex-1 justify-center"
+                  >
                     <Icon name="MessageCircle" className="mr-2" />
                     Telegram
                   </Button>
-                  <Button variant="outline" size="sm" className="flex-1">
+                  <Button
+                    variant="outline"
+                    size="sm"
+                    className="flex-1 justify-center"
+                  >
                     <Icon name="Phone" className="mr-2" />
                     WhatsApp
                   </Button>
